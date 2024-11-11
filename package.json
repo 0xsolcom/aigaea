@@ -1,0 +1,26 @@
+{
+    "name": "Ai-Gaea-bot",
+    "version": "1.0.0",
+    "description": "处理代理、身份验证和使用唯一浏览器 ID ping 的脚本",
+    "main": "main.js",
+      "type": "module",
+    "scripts": {
+        "start": "node main.js"
+    },
+    "dependencies": {
+        "node-fetch": "^3.3.0",
+        "https-proxy-agent": "^5.0.0",
+        "readline": "^1.3.0",
+        "chalk": "^5.0.0"
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "license": "ISC",
+    "keywords": [
+        "aigea",
+        "代理",
+        "自动化",
+        "https://app.aigaea.net/"
+    ]
+}
